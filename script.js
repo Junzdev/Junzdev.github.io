@@ -1,4 +1,4 @@
-async function mulainama() {
+async function lodsss() {
            kadoIn.style="display:none";ket.style="display:none";
            Content.style = "opacity:1;margin-top:2vh";
            bodyblur.style="opacity:.7";
