@@ -5,7 +5,7 @@ async function lodsss() {
            wallpaper.style="transform: scale(1);";
            stickerhaihalyhalods.style="display:inline-flex;";
            setTimeout(lylodssticker,200);
-           setTimeout(LowIly,500);
+           setTimeout(fordahello,500);
   }
   
   function lylodssticker(){
