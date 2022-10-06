@@ -38,7 +38,7 @@ async function lodsss() {
     bq.style="";
     fordahello2.innerHTML = vketikfordahello2;
     setTimeout(munculbwh,800);
-    setInterval(createHeart,400);setTimeout(Button,7000);
+    setInterval(createHeart,400);setTimeout(button,7000);
   },}).go();
   }
   
