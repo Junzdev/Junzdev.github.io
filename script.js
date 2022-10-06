@@ -51,8 +51,8 @@ async function lodsss() {
   
   function bqmuncul(){bq.style = "position:relative;opacity:1;visibility:visible;transform: scale(1);margin-top:0";mulaiketik1();fungsi=1;}
   function bqhilang(){wallpaper.style="transform: scale(2);";bodyblur.style="opacity:.3";bq.style = "position:relative;transition:all .7s ease;";}
-  function otokal() {kalimat.style="opacity:0;transform:scale(.3);";setTimeout(anikal,300);} 
-  function anikal() {setTimeout(otopsL,700);kalimat.style="opacity:1;transform:scale(1);";}
+  function otokal() {sentence.style="opacity:0;transform:scale(.3);";setTimeout(anikal,300);} 
+  function anikal() {setTimeout(otopsL,700);sentence.style="opacity:1;transform:scale(1);";}
   function otopsL(){opsL.style.opacity=".8";opsLcheck+=1;opsLclick=1;}
 
   function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
