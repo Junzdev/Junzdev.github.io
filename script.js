@@ -76,7 +76,7 @@ async function lodsss() {
       if(opsLcheck==3){sentence.innerHTML = sentenced.innerHTML;otokal();fthilang();palitsticker=3;setTimeout(lylodssticker,300);}
       if(opsLcheck==4){sentence.innerHTML = sentencee.innerHTML;otokal();fthilang();palitsticker=4;setTimeout(lylodssticker,300);}
       if(opsLcheck==5){sentence.innerHTML = sentencef.innerHTML;otokal();fthilang();palitsticker=5;setTimeout(lylodssticker,300);}
-      if(opsLcheck==6){LowIly2();}
+      if(opsLcheck==6){fordahello2();}
       opsL.style.opacity="0";opsLclick=0;
     }
   }
