@@ -42,12 +42,12 @@ async function lodsss() {
   },}).go();
   }
   
-  defkalimatbawah = kalimatbawah.innerHTML;
-  function munculbwh(){kalimatbawah.innerHTML=defkalimatbawah;setTimeout(munculbwh2,2000);otomatis();}
-  function munculbwh2(){kalimatbawah.innerHTML=kalimatbawah2.innerHTML;setTimeout(munculbwh3,2000);otomatis();}
-  function munculbwh3(){kalimatbawah.innerHTML=kalimatbawah3.innerHTML;setTimeout(munculbwh,2000);otomatis();}
-  function otomatis() {kalimatbawah.style="position:relative;opacity:0;transform:scale(.3);";setTimeout(anim,300);} 
-  function anim() {kalimatbawah.style="position:relative;opacity:1;transform:scale(1);";}
+  defbottomsentence = bottomsentence.innerHTML;
+  function munculbwh(){bottomsentence.innerHTML=defbottomsentence;setTimeout(munculbwh2,2000);otomatis();}
+  function munculbwh2(){bottomsentence.innerHTML=bottomsentence2.innerHTML;setTimeout(munculbwh3,2000);otomatis();}
+  function munculbwh3(){bottomsentence.innerHTML=bottomsentence3.innerHTML;setTimeout(munculbwh,2000);otomatis();}
+  function otomatis() {bottomsentence.style="position:relative;opacity:0;transform:scale(.3);";setTimeout(anim,300);} 
+  function anim() {bottomsentence.style="position:relative;opacity:1;transform:scale(1);";}
   
   function bqmuncul(){bq.style = "position:relative;opacity:1;visibility:visible;transform: scale(1);margin-top:0";mulaiketik1();fungsi=1;}
   function bqhilang(){wallpaper.style="transform: scale(2);";bodyblur.style="opacity:.3";bq.style = "position:relative;transition:all .7s ease;";}
@@ -58,9 +58,9 @@ async function lodsss() {
   function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
   
-  vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
+  vketik1=sentence.innerHTML;sentence.innerHTML = "";
   function mulaiketik1(){
-  new TypeIt("#kalimat", {
+  new TypeIt("#sentence", {
   strings: ["" + vketik1], startDelay: 400, speed: 50, deleteSpeed: 20, breakLines: false, waitUntilVisible: true, lifelike: true,
   afterComplete: function(){
     otopsL();
@@ -71,11 +71,11 @@ async function lodsss() {
   document.getElementById("bq").addEventListener("click", myCheck);
   function myCheck() {
     if(opsLclick==1){
-      if(opsLcheck==1){kalimat.innerHTML = kalimatb.innerHTML;otokal();fthilang();ftganti=1;setTimeout(ftmuncul,300);}
-      if(opsLcheck==2){kalimat.innerHTML = kalimatc.innerHTML;otokal();fthilang();ftganti=2;setTimeout(ftmuncul,300);}
-      if(opsLcheck==3){kalimat.innerHTML = kalimatd.innerHTML;otokal();fthilang();ftganti=3;setTimeout(ftmuncul,300);}
-      if(opsLcheck==4){kalimat.innerHTML = kalimate.innerHTML;otokal();fthilang();ftganti=4;setTimeout(ftmuncul,300);}
-      if(opsLcheck==5){kalimat.innerHTML = kalimatf.innerHTML;otokal();fthilang();ftganti=5;setTimeout(ftmuncul,300);}
+      if(opsLcheck==1){sentence.innerHTML = sentenceb.innerHTML;otokal();fthilang();ftganti=1;setTimeout(ftmuncul,300);}
+      if(opsLcheck==2){sentence.innerHTML = sentencec.innerHTML;otokal();fthilang();ftganti=2;setTimeout(ftmuncul,300);}
+      if(opsLcheck==3){sentence.innerHTML = sentenced.innerHTML;otokal();fthilang();ftganti=3;setTimeout(ftmuncul,300);}
+      if(opsLcheck==4){sentence.innerHTML = sentencee.innerHTML;otokal();fthilang();ftganti=4;setTimeout(ftmuncul,300);}
+      if(opsLcheck==5){sentence.innerHTML = sentencef.innerHTML;otokal();fthilang();ftganti=5;setTimeout(ftmuncul,300);}
       if(opsLcheck==6){kethalo2();}
       opsL.style.opacity="0";opsLclick=0;
     }
