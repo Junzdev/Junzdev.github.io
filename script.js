@@ -21,7 +21,7 @@ async function lodsss() {
   function fthilang(){stickerhaihalyhalods.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(.1)";}
   function jjfoto(){stickerhaihalyhalods.style.animation="rto .8s infinite alternate";setInterval(createHeart,200);}
   
-  function LowIly(){
+  function fordahello(){
   new TypeIt("#fordahello", {
   strings: ["" + vketikfordahello], startDelay: 50, speed: 30, waitUntilVisible: true,
   afterComplete: function(){
@@ -29,7 +29,7 @@ async function lodsss() {
     setTimeout(bqmuncul,200);
   },}).go();
   }
-  function LowIly2(){
+  function fordahello2(){
   bqhilang();fthilang();palitsticker=6;setTimeout(lylodssticker,400);
   fordahello.style="display:none";
   new TypeIt("#fordahello2", {
