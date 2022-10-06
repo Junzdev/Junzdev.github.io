@@ -38,7 +38,7 @@ async function lodsss() {
     bq.style="";
     fordahello2.innerHTML = vketikfordahello2;
     setTimeout(munculbwh,800);
-    setInterval(createHeart,400);setTimeout(tombol,7000);
+    setInterval(createHeart,400);setTimeout(Button,7000);
   },}).go();
   }
   
@@ -55,7 +55,7 @@ async function lodsss() {
   function anikal() {setTimeout(otopsL,700);sentence.style="opacity:1;transform:scale(1);";}
   function otopsL(){opsL.style.opacity=".8";opsLcheck+=1;opsLclick=1;}
 
-  function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
+  function button(){wallpaper.style="transform: scale(1);";Button.style="opacity:1;transform: scale(1);";fungsi=1}
   document.getElementById("By").onclick = function() {if(fungsi==1){menuju();}}
   
   vketik1=sentence.innerHTML;sentence.innerHTML = "";
