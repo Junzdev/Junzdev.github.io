@@ -54,8 +54,8 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
 
 #fotolove img{transition:all .5s ease;width:75px;height:75px;padding:0;background:none}
 #kadoIn img{display:inline-flex;background:none;width:130px;height:130px;transition:all .3s ease;} 
-#ket, .fordahello{text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);font-size:17px;font-weight:700;color:white}
-#ket{margin-top:25px !important;font-weight:400;}
+#fordaclick, .fordahello{text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);font-size:17px;font-weight:700;color:white}
+#fordaclick{margin-top:25px !important;font-weight:400;}
 #kadoIn img:hover{transform:scale(.9);}
 
 #kolombaru{position:absolute;opacity:0;display:flex;transform:scale(.1);transition:all 1s ease;align-items:center;text-align:center;justify-content:center;}
