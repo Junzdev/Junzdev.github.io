@@ -1,5 +1,5 @@
 async function lodsss() {
-           kadoIn.style="display:none";ket.style="display:none";
+           kadoIn.style="display:none";fordaclick.style="display:none";
            Content.style = "opacity:1;margin-top:2vh";
            bodyblur.style="opacity:.7";
            wallpaper.style="transform: scale(1);";
