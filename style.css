@@ -27,12 +27,12 @@ blockquote{width:400px;text-align:center;line-height:1.3em;padding:20px 33px 10p
 blockquote::before{content:attr(data-text);font-family: sans-serif;position:absolute;left:8px;top:8px;min-width:15px;font-size:16px;text-align:center}
 blockquote::after{content: "";position: absolute;border: 1px solid #fff;border-radius:8px;top: -8px;bottom: -8px;left: -8px;right: -8px;}
 blockquote p{font-size:15px;font-weight:700;line-height:1.4em;transition:all .5s ease;}
-blockquote p:not(#opsL, #kalimat){display:none;}
+blockquote p:not(#opsL, #sentence){display:none;}
 blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0;margin-top:24px;color:white;opacity:0;transition:all .2s ease;}
 
 #waktu{display:none}
 #kado1, #kado2, #kado3{font-size:16px;font-weight:400;}
-#kalimatAkhir{transform:scale(.1);}
+#sentenceAkhir{transform:scale(.1);}
 #kado1{position:absolute;opacity:0}
 #kalove{font-size:25px;line-height:0;}
 .kolombar .inibar{position:absolute;opacity:0;visibility:hidden;background-color:#fff;height:5px;width:100%}
@@ -49,7 +49,7 @@ blockquote > #opsL{text-align:right;font-size:11px;font-weight:400;line-height:0
 .halo{font-size:17px !important;position:relative;margin:15px 0 20px 0} 
 .halo.sty2{font-family:var(--gaya-font2);font-size:24px !important;margin-top:20px !important;}
 .halo.sty3{position:absolute !important;font-size:14px !important;font-weight:400 !important;margin:30px 20px !important;}
-#kalimatbawah{position: absolute;opacity:0;transform: scale(.3);margin:50px 0;font-family:var(--gaya-font2);font-size:20px;font-weight:700;color:white;text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);transition:all .5s ease;}
+#bottomsentence{position: absolute;opacity:0;transform: scale(.3);margin:50px 0;font-family:var(--gaya-font2);font-size:20px;font-weight:700;color:white;text-shadow: 0px 2px 2px rgba(0, 0, 0, .8);transition:all .5s ease;}
 #tanggal{position: absolute;opacity:0;transform: scale(.3);transition:all .5s ease;}
 
 #fotolove img{transition:all .5s ease;width:75px;height:75px;padding:0;background:none}
