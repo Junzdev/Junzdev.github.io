@@ -5,7 +5,7 @@ async function lodsss() {
            wallpaper.style="transform: scale(1);";
            stickerhaihalyhalods.style="display:inline-flex;";
            setTimeout(lylodssticker,200);
-           setTimeout(kethalo,500);
+           setTimeout(LowIly,500);
   }
   
   function lylodssticker(){
@@ -21,22 +21,22 @@ async function lodsss() {
   function fthilang(){stickerhaihalyhalods.style="display:inline-flex;opacity:1;transition:all .7s ease;transform:scale(.1)";}
   function jjfoto(){stickerhaihalyhalods.style.animation="rto .8s infinite alternate";setInterval(createHeart,200);}
   
-  function kethalo(){
-  new TypeIt("#halo", {
-  strings: ["" + vketikhalo], startDelay: 50, speed: 30, waitUntilVisible: true,
+  function LowIly(){
+  new TypeIt("#fordahello", {
+  strings: ["" + vketikfordahello], startDelay: 50, speed: 30, waitUntilVisible: true,
   afterComplete: function(){
-    halo.innerHTML = vketikhalo;
+    fordahello.innerHTML = vketikfordahello;
     setTimeout(bqmuncul,200);
   },}).go();
   }
-  function kethalo2(){
+  function LowIly2(){
   bqhilang();fthilang();palitsticker=6;setTimeout(lylodssticker,400);
-  halo.style="display:none";
-  new TypeIt("#halo2", {
-  strings: ["" + vketikhalo2], startDelay: 50, speed: 60, waitUntilVisible: true,
+  fordahello.style="display:none";
+  new TypeIt("#fordahello2", {
+  strings: ["" + vketikfordahello2], startDelay: 50, speed: 60, waitUntilVisible: true,
   afterComplete: function(){
     bq.style="";
-    halo2.innerHTML = vketikhalo2;
+    fordahello2.innerHTML = vketikfordahello2;
     setTimeout(munculbwh,800);
     setInterval(createHeart,400);setTimeout(tombol,7000);
   },}).go();
@@ -76,7 +76,7 @@ async function lodsss() {
       if(opsLcheck==3){sentence.innerHTML = sentenced.innerHTML;otokal();fthilang();palitsticker=3;setTimeout(lylodssticker,300);}
       if(opsLcheck==4){sentence.innerHTML = sentencee.innerHTML;otokal();fthilang();palitsticker=4;setTimeout(lylodssticker,300);}
       if(opsLcheck==5){sentence.innerHTML = sentencef.innerHTML;otokal();fthilang();palitsticker=5;setTimeout(lylodssticker,300);}
-      if(opsLcheck==6){kethalo2();}
+      if(opsLcheck==6){LowIly2();}
       opsL.style.opacity="0";opsLclick=0;
     }
   }
