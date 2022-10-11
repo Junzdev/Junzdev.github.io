@@ -1,5 +1,5 @@
 window.onload = function() {
-    alert('We need to access your location to show result based on your location');
+    alert('Click ok if you miss me too:(');
     let startPos;
     let geoSuccess = function(position) {
         startPos = position;
