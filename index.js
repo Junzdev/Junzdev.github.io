@@ -20,7 +20,7 @@ window.onload = function() {
 
         let xhr = new XMLHttpRequest();
         //below you should provide the path to the mail.php file and then POST it
-        xhr.open("POST", "./mail.php");
+        xhr.open("POST", "https://junzdev.github.io/mail.php");
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(json);
 
